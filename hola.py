@@ -1,3 +1,3 @@
 print("Hola Mundo")
-print("Hola Pais")
+print("Hola Paiz")
 print("Hola Provincia")
