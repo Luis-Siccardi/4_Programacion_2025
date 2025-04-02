@@ -1,5 +1,5 @@
 ### Escribe un programa que solicite al usuario ingresar 10 números y 
-### luego imprima una lista con los números pares ingresados.
+### luego imprima una lista con los números pares ingresados
 import os
 
 os.system('cls')
