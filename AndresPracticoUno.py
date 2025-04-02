@@ -19,9 +19,9 @@ Escribe un programa que identifique y cuente los pronombres de un texto y luego 
 def contarPares(lista):
     resultado=[]
     for i in range ( len(lista) ):
-        if lista[i]%2==0:
+        if i%2==0:
             print(lista[i])
-            resultado.append(lista[i])
+            resultado.append(i)
     return resultado
 
 lista=[]
