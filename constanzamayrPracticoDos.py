@@ -1,6 +1,6 @@
 print ("Ejercicio 2: Contar pronombres")
 print ("                                    ") #para que quede mas prolijo
-
+print ("error de prueba")
 #Ejercicio 2: Contar pronombres en el texto compartido por la Profesora Lorena.
 
 #Escribe un programa que identifique y cuente los pronombres de un texto y luego imprima la cantidad que contiene el texto.
