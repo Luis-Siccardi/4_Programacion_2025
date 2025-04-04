@@ -18,7 +18,7 @@ for i in range(10):
 
 #append es para agregar valores a listas
 
-print(f "la lista de todos los números hasta ahora es: {numeros}") 
+print(f"la lista de todos los números hasta ahora es: {numeros}") 
 
 #chequeamos que los numeros se hayan guardado correctamente en la lista
 
@@ -31,4 +31,4 @@ for num in numeros: #es un bucle que recorre la lista numeros
 
     if num % 2 ==0: #si num dividido dos es igual a 0 se agrega a la lista pares 
       pares.append(num)
-print(f "los numeros pares son: {pares}")
+print(f"los numeros pares son: {pares}")
