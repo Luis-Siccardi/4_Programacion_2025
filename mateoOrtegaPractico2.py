@@ -2,11 +2,11 @@ texto="Stéfano habita una vieja casa de barrio pobre. Él vive allí desde hace
 
 pronombres=[
     "yo", "tú", "vos", "usted", "él", "ella", "nosotros", "nosotras", "vosotros", "vosotras", "ustedes", "ellos", "ellas", "me", "te", "se", "nos", "os", "lo", "la", "los", "las", "le", "les", "mí", "ti", "sí"
-]
-palabras = texto.lower().replace(".","").replace(";","").replace(",","").split()
+]#es una lista con todos los pronombres
+palabras = texto.lower().replace(".","").replace(";","").replace(",","").split()#define la variable palabras y la pasa a texto en miuscula y remplaza los puntos y comas por nada y con el split agrega espacio a cada palabra
 
-contador = 0
-for palabra in palabras:
-    if palabra in pronombres:
-        contador += 1
+contador = 0#le da un valor a contador 
+for palabra in palabras: #pasa palabra por palabras
+    if palabra in pronombres:#recorre palabra en pronombres
+        contador += 1 #contador suma los pronombres
 print("cantidad de pronombres en el texto:",contador)
